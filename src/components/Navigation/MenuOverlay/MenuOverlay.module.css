@@ -1,0 +1,19 @@
+
+.MenuOverlay {
+  transform: translateY(0px);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, .7);
+  cursor: pointer;
+  transition: transform .3s ease-in;
+}
+
+.MenuOverlay.close {
+  transform: translateY(-600px);
+  z-index: 50;
+  transition: transform .3s ease-in;
+}

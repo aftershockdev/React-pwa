@@ -1,7 +1,7 @@
 
 .MenuOverlay {
   transform: translateY(0px);
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   top: 0;
@@ -13,7 +13,7 @@
 }
 
 .MenuOverlay.close {
-  transform: translateY(-600px);
+  transform: translateY(-1500px);
   z-index: 50;
   transition: transform .3s ease-in;
 }
